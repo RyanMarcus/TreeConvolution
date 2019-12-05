@@ -1,5 +1,7 @@
 # Tree Convolution
 
+![Tree convolution example from Neo paper](https://raw.githubusercontent.com/RyanMarcus/TreeConvolution/master/example.png)
+
 This is an implementation of tree convolution in PyTorch, as described in the paper:
 
 Lili Mou, Ge Li, Lu Zhang, Tao Wang, and Zhi Jin. “Convolutional Neural Networks over Tree Structures for Programming Language Processing.” In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence, 1287–1293. AAAI ’16. Phoenix, Arizona: AAAI Press, 2016. <https://arxiv.org/pdf/1409.5718.pdf>
