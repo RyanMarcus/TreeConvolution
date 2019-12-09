@@ -1,5 +1,5 @@
 # Tree Convolution
-
+ 
 ![Tree convolution example from Neo paper](https://raw.githubusercontent.com/RyanMarcus/TreeConvolution/master/example.png)
 
 This is an implementation of tree convolution in PyTorch, as described in the paper:
