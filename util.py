@@ -17,6 +17,7 @@
 # along with TreeConvolution.  If not, see <http://www.gnu.org/licenses/>.
 # 
 # < end copyright > 
+ 
 import numpy as np
 import torch
 
@@ -132,6 +133,13 @@ def _tree_conv_indexes(root, left_child, right_child):
 def _pad_and_combine(x):
     assert len(x) >= 1
     assert len(x[0].shape) == 2
+
+    for itm in x:
+        if itm.dtype == np.dtype("object"):
+            raise TreeConvolutionError(
+                "Transformer outputs could not be unified into an array. "
+                + "Are they all the same size?"
+            )
     
     second_dim = x[0].shape[1]
     for itm in x[1:]:
