@@ -1,5 +1,7 @@
 # Tree Convolution
  
+ ![Build stats](https://github.com/RyanMarcus/TreeConvolution/workflows/tests/badge.svg)
+ 
 ![Tree convolution example from Neo paper](https://raw.githubusercontent.com/RyanMarcus/TreeConvolution/master/example.png)
 
 This is an implementation of tree convolution in PyTorch, as described in the paper:
@@ -10,7 +12,7 @@ This implementation of tree convolution is the one used in Neo:
 
 Ryan Marcus, Parimarjan Negi, Hongzi Mao, Chi Zhang, Mohammad Alizadeh, Tim Kraska, Olga Papaemmanouil, and Nesime Tatbul. “Neo: A Learned Query Optimizer.” PVLDB, VLDB ’19, 12, no. 11 (2019): 1705–18. <http://www.vldb.org/pvldb/vol12/p1705-marcus.pdf>
 
-This is only an implementation of the tree convolution operator, not the rest of the paper. Furthermore, this implementation uses only "binary" tree convolution (where each tree node has exactly two or zero children). A complete implementation of the Mou et al. is available in TensorFlow [here](https://github.com/crestonbunch/tbcnn).
+This is only an implementation of the tree convolution operator, not the rest of the paper. Furthermore, this implementation uses only "binary" tree convolution (where each tree node has exactly two or zero children). A complete (unofficial) implementation of the Mou et al. paper is available in TensorFlow [here](https://github.com/crestonbunch/tbcnn).
 
 ## Instructions
 
